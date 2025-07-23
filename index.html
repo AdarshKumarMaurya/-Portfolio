@@ -31,11 +31,41 @@
 
 
   <style>
-  
     .certificate {
       height: 13rem;
       padding-left: 3rem;
       width: 80%;
+    }
+
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 12px 20px;
+      border-radius: 8px;
+      transition: background 0.3s, transform 0.2s;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .download-btn .icon {
+      width: 20px;
+      height: 20px;
+      margin-left: 10px;
+      transition: transform 0.3s;
+    }
+
+    .download-btn:hover {
+      background: linear-gradient(135deg, #2a5298, #1e3c72);
+      transform: scale(1.05);
+    }
+
+    .download-btn:hover .icon {
+      transform: translateY(3px);
     }
   </style>
 
@@ -57,10 +87,12 @@
     </a>
 
     <div class="social-links text-center">
-      <a href="https://github.com/AdarshKumarMaurya" >GitHub</a>
+      <a href="https://github.com/AdarshKumarMaurya"><i class="bi bi-github"></i></a>
       <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com/adarsh___108___?igsh=emY1ZzJ5a2dlam5i" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/adarsh-kumar-maurya-288793292" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.instagram.com/adarsh___108___?igsh=emY1ZzJ5a2dlam5i" class="instagram"><i
+          class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/adarsh-kumar-maurya-288793292" class="linkedin"><i
+          class="bi bi-linkedin"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
@@ -236,7 +268,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
+        <h2>Resume <a href=""></a></h2>
         <p>Passionate and results-driven MERN Stack Developer with expertise in Java, Data Structures & Algorithms , and
           Web development. Experienced in designing and implementing scalable web applications using modern
           Technologies. Seeking to contribute my skills in backend and frontend development to a dynamic team.</p>
@@ -301,13 +333,25 @@
                 <li>Developed database-driven solutions to manage and store large datasets.</li>
                 <li> - Improved application performance and security through optimization techniques.</li>
               </ul>
-            </div><!-- Edn Resume Item -->
+
+
+            </div>
+
+            <!-- Edn Resume Item -->
 
           </div>
 
         </div>
 
       </div>
+      <center><a href="assets\img\resume_adarsh_kumar_maurya.pdf" download class="download-btn">
+        <span class="text">Resume</span>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4" />
+        </svg>
+      </a>
+      </center>
 
     </section><!-- /Resume Section -->
 
@@ -505,7 +549,8 @@
           <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
             <div>
-              <h4 class="title"><a href="https://github.com/AdarshKumarMaurya/Zerodha-clone" class="stretched-link">Zerodha Clone</a></h4>
+              <h4 class="title"><a href="https://github.com/AdarshKumarMaurya/Zerodha-clone"
+                  class="stretched-link">Zerodha Clone</a></h4>
               <h5>Tech Stack: MongoDB, Express.js, React.js, Node.js, JWT, JSON, REST API, CSS/Bootstrap ,Tailwind CSS
               </h5>
               <p class="description">
@@ -525,17 +570,18 @@
           <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
             <div>
-              <h4 class="title"><a href="https://saarkswelfare.infinityfreeapp.com/" class="stretched-link">Saarks Welfare - Blood Management</a></h4>
-              
+              <h4 class="title"><a href="https://saarkswelfare.infinityfreeapp.com/" class="stretched-link">Saarks
+                  Welfare - Blood Management</a></h4>
+
               <h5>Tech Stack: Core PHP, MySQL, HTML, CSS, JavaScript , JQuery , AJAX, CAPTCHA
-</h5>
+              </h5>
               <p class="description">Developed a full-featured Blood Management System with secure authentication &
                 role-based authorization,captcha
                 ensuring safe access for donors, recipients, and admins.
                 Designed an attractive, responsive UI ,admin panel with advance data visualization features for
                 user-friendly
                 navigation across all devices and the goal of this project is also to host on the server.
-                
+
               </p>
             </div>
           </div><!-- End Service Item -->
@@ -553,21 +599,24 @@
           <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
             <div>
-              <h4 class="title"><a href="https://github.com/AdarshKumarMaurya/Online-Shopping" class="stretched-link">Online Shopping Plateform</a></h4>
+              <h4 class="title"><a href="https://github.com/AdarshKumarMaurya/Online-Shopping"
+                  class="stretched-link">Online Shopping Plateform</a></h4>
               <h5>Tech Stack: Django, Python, HTML, CSS, Bootstrap, SQLite/PostgreSQL ,VS Code
-</h5>
-              <p class="description">Built a blood donation and management platform for efficient donor-Developed a feature-rich e-commerce site with user authentication and role-based authorization using Django’s
-built-in auth system.
-Designed an attractive and responsive UI for smooth user experience across devices.
-Built an efficient admin dashboard for product, user, and order management using Django Admin.
-</p>
+              </h5>
+              <p class="description">Built a blood donation and management platform for efficient donor-Developed a
+                feature-rich e-commerce site with user authentication and role-based authorization using Django’s
+                built-in auth system.
+                Designed an attractive and responsive UI for smooth user experience across devices.
+                Built an efficient admin dashboard for product, user, and order management using Django Admin.
+              </p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
             <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
             <div>
-              <h4 class="title"><a href="https://github.com/AdarshKumarMaurya/WanderLust-Project" class="stretched-link">WanderLust Project</a></h4>
+              <h4 class="title"><a href="https://github.com/AdarshKumarMaurya/WanderLust-Project"
+                  class="stretched-link">WanderLust Project</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                 praesentium voluptatum deleniti atque</p>
             </div>
@@ -576,7 +625,8 @@ Built an efficient admin dashboard for product, user, and order management using
           <div class="col-lg-6 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
             <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
             <div>
-              <h4 class="title"><a href="https://github.com/AdarshKumarMaurya/zoom-clone" class="stretched-link">Zoom Clone </a></h4>
+              <h4 class="title"><a href="https://github.com/AdarshKumarMaurya/zoom-clone" class="stretched-link">Zoom
+                  Clone </a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
                 soluta nobis est eligendi</p>
             </div>
@@ -623,7 +673,14 @@ Built an efficient admin dashboard for product, user, and order management using
           <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
             <h2>Contact</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="social-links text-center">
+              <a href="https://github.com/AdarshKumarMaurya" class="github m-3 fs-3"><i class="bi bi-github"></i></a>
+              <a href="#" class="facebook m-3 fs-3"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/adarsh___108___?igsh=emY1ZzJ5a2dlam5i" class="instagram m-3 fs-3"><i
+                  class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/adarsh-kumar-maurya-288793292" class="linkedin m-3 fs-3"><i
+                  class="bi bi-linkedin"></i></a>
+            </div>
           </div><!-- End Section Title -->
 
           <div class="container" data-aos="fade-up" data-aos-delay="100">
