@@ -25,8 +25,9 @@ Other Tools: Framer Motion, EmailJS, FontAwesome, GitHub Pages
 -------------------------------------------------------------------------------------------------------------------------------------------
 📜 Certifications
 
+🏆 Web Development Internship – CODTECH IT SOLUTIONS
 🏆 Web Development Internship – CodeAlpha
-🏆 Java Programming – HackerRank
+🏆 Java Programming – HackerRank,Leetcode
 🏆 Ethical Hacking Workshop – [Code Virus Security]
 🏆 Data Structures in java – [Apna College]
 -------------------------------------------------------------------------------------------------------------------------------------------
