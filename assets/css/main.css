@@ -17,6 +17,7 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
@@ -86,6 +87,13 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+
+/* ===== Hero Image Fix ===== */
+#hero {
+  position: relative;
+  overflow: hidden;
+}
+
 
 /* PHP Email Form Messages
 ------------------------------*/
